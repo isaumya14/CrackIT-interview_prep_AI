@@ -5,7 +5,7 @@ import Image from 'next/image'
 import InterviewCard from '@/components/InterviewCard'
 import {  getInterviewByUserId, getLatestInterviews } from '@/lib/actions/general.action'
 import { getCurrentUser } from '@/lib/actions/auth.action'
-import LogoutButton from '@/components/ui/LogoutButton'
+
 
 const page = async () => {
   const user= await getCurrentUser();
